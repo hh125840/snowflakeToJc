@@ -38,7 +38,7 @@ html{
     position: absolute;
     width: 400px;
     height: 400px;
-    opacity: 0.86;
+    opacity: 0.28;
     transition: all .4s;
 }
 /*定义所有图片样式*/
@@ -71,7 +71,7 @@ html{
     height: 200px;
     position: absolute;
     top: 50px;
-    left: 50px;
+    left: 100px;
 }
 .snapshot .in_pic{
     width: 200px;
@@ -98,21 +98,27 @@ html{
 /*鼠标移入后样式*/
 .snapshot:hover .out_front{
     transform: rotateY(0deg) translateZ(300px);
+    opacity: 0.86;
 }
 .snapshot:hover .out_back{
     transform: translateZ(-300px) rotateY(180deg);
+    opacity: 0.86;
 }
 .snapshot:hover .out_left{
     transform: rotateY(90deg) translateZ(300px);
+    opacity: 0.86;
 }
 .snapshot:hover .out_right{
     transform: rotateY(-90deg) translateZ(300px);
+    opacity: 0.86;
 }
 .snapshot:hover .out_top{
     transform: rotateX(90deg) translateZ(300px);
+    opacity: 0.86;
 }
 .snapshot:hover .out_bottom{
     transform: rotateX(-90deg) translateZ(300px);
+    opacity: 0.86;
 }
 
 
